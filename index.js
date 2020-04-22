@@ -16,7 +16,7 @@ function addItem() {
   $('#js-shopping-list-form').submit(event => {
     event.preventDefault();
     const itemToAdd = $(event.currentTarget).find('#shopping-list-entry').val();
-    console.log(itemToAdd);
+//    console.log(itemToAdd);
   });
 }
 
@@ -28,7 +28,7 @@ function checkUncheck() {
   $('.shopping-item-toggle').on('click', event => {
     const checked = $(event.currentTarget);
     checked.toggleClass('shopping-item__checked');
-    console.log('check check');
+//    console.log('check check');
   });
 }
 
